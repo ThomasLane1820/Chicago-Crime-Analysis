@@ -1,4 +1,10 @@
-# Project 3
+# Chicago Crime Analysis
+
+
+
+
+
+
  
 ![image](https://github.com/ThomasLane1820/Project-3/assets/139289105/e060f80c-39f3-4188-a2ff-a555b2962d41)
 
