@@ -20,7 +20,7 @@
 - The crimes with the highest number of reports are not very surprising, although theft with 1.6 million reports and battery with 1.4 million reports occur signifcantly more often than the thrid most frequent
 - On the other side of the spectrum there's domestic violence with only one single report.
 
-(![Change in Crimes 2001-2022](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/3009257c-04eb-49f0-b7f1-d3368ad55242)
+![Change in Crimes 2001-2022](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/3009257c-04eb-49f0-b7f1-d3368ad55242)
 - Most crimes have seen a large reduction in the past 22 years.
 - Namely, There are far far fewer narcotics arrests made.
 - There are a few crimes have seen more arrests, but most of them saw a increases in the douple or triple digits.
