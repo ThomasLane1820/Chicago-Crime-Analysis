@@ -6,8 +6,7 @@
   The main goal of this project is to provide an in-depth analysis of crime distribtion in Chicago, [using data from cityofchicago.org](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/data) and how the frequency of specific crimes have changed over time. I'll be addressing the year over year change in crime occurance starting with data from 2002 up until 2022, along with looking into the seasonality, or lack thereof, for crimes. Beyond that I'll also be using S/ARIMA and other models to forecast potential crime rates using a varying range of data to assist in visualizing the change in crime rates. Additionally exploring individual districts in Chicago to examine which crimes have disproportionally higher arrest rates along with higher a rate of occurance. For what appears to be signific outliers, I'll be doing additional research beyond the dataset itself to see if there is a anything knowledge to be gained, for exmaple there is only one report of domestic abuse in the twenty two years of data collection.
   
   I used Jupyter Notebook along with a number of python libraries to perform the intitial inspection, cleaning, and anaylsis. Some of the libraries used are pandas, seaborn, matplotlib, pmdarima, and statsmodels. **GO INTO DETAILL** 
-  Using Tableau to get more complex and interactive visualizations that allows you to 
-
+  Tableau was used as a method to clearly present patterns and forecasts. The final Tableau dashboard neatly displays relevant and meaningful data. 
 
 
 
@@ -33,9 +32,14 @@
 - District 31 had by far the fewest with only 9 arrests made.
 - District 21 had no data, which either means there were no crimes, or they weren't recorded.
 
- 
+
+
+
+## Tablea Analysis
+
 ![image](https://github.com/ThomasLane1820/Project-3/assets/139289105/e060f80c-39f3-4188-a2ff-a555b2962d41)
 
+![Tab Change in Crime](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/dff8437f-7bd1-43c9-a809-386b4bcf8c8b)
 
 
 Tableau Link:  https://public.tableau.com/views/Project3Dashboard_16995778005340/LocationsofTopCrimes?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link 
@@ -59,8 +63,12 @@ Tableau Link:  https://public.tableau.com/views/Project3Dashboard_16995778005340
 
 
   TODO:
-  - Further analysis into more crimes, namely: theft, battery, criminal, damages.
+  - Further EDA in Juptyer
+  - Adding more comments and explanations
   - Additional research on certain districts based on where arrest rates are much higher, higher reports, lower arrest rates, etc.
-  - Tidy up Tableau Dashboard, tell more of a story.
+  - Update Tableau
+     - Give the dashboard more personality
+     - Clean and refine the data further
+     - Adding/refining visuals to reflect the goal
   - Additional reflection on the plots in Jupyter Notebook.
   - normalize the change in crime over time, or filter out extreme outliers to get a better idea of the less frequent crimes.
