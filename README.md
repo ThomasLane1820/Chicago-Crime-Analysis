@@ -15,10 +15,8 @@
 
 ## Initial analysis
 
-![Total Crime Counts](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/c5729a80-ea79-4aab-b9ed-e74313b33c82)
-
-- The crimes with the highest number of reports are not very surprising, although theft with 1.6 million reports and battery with 1.4 million reports occur signifcantly more often than the thrid most frequent
-- On the other side of the spectrum there's domestic violence with only one single report.
+![Total Crime Counts](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/c5729a80-ea79-4aab-b9ed-e74313b33c82) The crimes with the highest number of reports are not very surprising, although theft with 1.6 million reports and battery with 1.4 million reports occur signifcantly more often than the thrid most frequent
+On the other side of the spectrum there's domestic violence with only one single report.
 
 ![Change in Crimes 2001-2022](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/3009257c-04eb-49f0-b7f1-d3368ad55242)
 - Most crimes have seen a large reduction in the past 22 years.
