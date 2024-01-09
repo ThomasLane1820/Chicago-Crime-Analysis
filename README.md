@@ -13,7 +13,7 @@
 
 
 
-## Initial analysis
+## Data Visualization
 
 ![Total Crime Counts](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/c5729a80-ea79-4aab-b9ed-e74313b33c82) 
 - The crimes with the highest number of reports are not very surprising, although theft with 1.6 million reports and battery with 1.4 million reports occur significantly more often than the third most frequent.
@@ -45,7 +45,7 @@
 Tableau Link:  https://public.tableau.com/views/Project3Dashboard_16995778005340/LocationsofTopCrimes?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link 
 
 
-
+## Points to mention
 - Offering an in-depth analysis of crime distribution and how certain crimes have changed over time []
 - Brief exploration of the distribution of all crimes in Chicago. [] 
 - Exploration of where certain crimes have disproportionally higher arrest rates or reports [] 
@@ -62,7 +62,7 @@ Tableau Link:  https://public.tableau.com/views/Project3Dashboard_16995778005340
 - dashboard description
 
 
-  TODO:
+  ## Next Steps:
   - Further EDA in Juptyer
   - Adding additional comments and explanations
   - Additional research on certain districts based on where arrest rates are much higher, higher reports, lower arrest rates, etc.
