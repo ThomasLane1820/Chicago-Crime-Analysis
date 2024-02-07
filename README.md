@@ -5,8 +5,7 @@
 ## General Description
   The main goal of this project is to provide an in-depth analysis of crime distribution, how the frequency of crimes has changed over time, and specific district crime rates in Chicago, [using data from cityofchicago.org](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/data). I'll be addressing the year-over-year change in crime incidence starting with data from 2002 up until 2022, along with looking into the seasonality, or lack thereof, of crimes. Beyond that, I'll also be using S/ARIMA and other models to forecast potential crime rates using a varying range of data to assist in visualizing the change in crime rates. Additionally, I explore individual districts in Chicago to examine which crimes have disproportionally higher arrest rates and a higher rate of occurrence. For what appears to be significant outliers, I'll be doing additional research beyond the dataset itself to see if there is any knowledge to be gained; for exmaple, there is only one report of domestic abuse in the twenty two years of data collection.
   
-  I used Jupyter Notebook along with a number of Python libraries to perform the initial inspection, cleaning, and analysis. Some of the libraries used are Pandas, Seaborn, Matplotlib, Pmdarima, and StatsModels. **GO INTO DETAILL** 
-  Tableau was used as a method to clearly present patterns and forecasts. The final Tableau dashboard neatly displays relevant and meaningful data. **GO INTO DETAIL**
+I used Jupyter Notebook along with a number of Python libraries to perform the initial inspection, cleaning, and analysis. Some of the libraries used are Pandas, Seaborn, Matplotlib, Pmdarima, and StatsModels. Tableau was used as a method to clearly present patterns and forecasts. The final Tableau dashboard neatly displays relevant and meaningful data. **GO INTO DETAIL**
 
 
 
@@ -32,17 +31,36 @@
 - District 21 had no data, which either means there were no crimes or they weren't recorded.
 
 
+![Crime by Month](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/434eba9e-8fd7-4d69-8688-c7ca12853c52)
+
+## Modeling
+
+
+![Narcotics Diagnostics](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/515cbcf7-ad5d-4c30-aeed-63ea26a13f09)
+
+![Narcotics train test](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/7080b179-1cde-4d95-9e72-cb6d118a9db8)
+
+![Narcotics Forecast](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/dacb4c94-0930-4868-8915-2a04a78a43a9)
+
+
+
+![Assault Diagnostics](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/d299db09-4cf5-413e-a81a-e401b829077b)
+
+![Assault Train test](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/2fdbbe88-5384-4e2f-b435-0a360a07b930)
+
+![Assault Diagnostics](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/e8ced7f6-e6b2-462e-8f2b-fb933fcb7115)
+
 
 
 ## Tableau Analysis
+
+Tableau Link:  https://public.tableau.com/views/Project3Dashboard_16995778005340/LocationsofTopCrimes?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
 
 ![image](https://github.com/ThomasLane1820/Project-3/assets/139289105/e060f80c-39f3-4188-a2ff-a555b2962d41)
 - 
 
 ![Tab Change in Crime](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/dff8437f-7bd1-43c9-a809-386b4bcf8c8b)
-
-
-Tableau Link:  https://public.tableau.com/views/Project3Dashboard_16995778005340/LocationsofTopCrimes?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link 
 
 
 ## Points to mention
