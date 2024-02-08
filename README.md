@@ -49,11 +49,19 @@ I'll explore arrest rates for specific crimes in each district much more in Tabl
 
 ## Modeling
 
+
 For the modeling aspect of the project I focused on using ARIMA (autoregressive moving average) and SARIMA (seasonal autoregressive moving average) models. As seen earlier there is a noticeable seasonality to the frequency of all reported crimes, however, specific crimes tend to have their own seasonality that may not line up as smoothly over time. So despite the apparent seasonality, it may not be consistent enough to provide any benefit to the model.
+
+
+### Narcotics 
+
+#### Determing the model
 
 ![Narcotics seasonality visual](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/21b8e01b-ba51-42a6-a0e6-0679184d34e7)
 
 Many arrests saw a sharp decline in the early months of 2020, while there are multiple factors at play I think the two largest contributors are the COVID-19 pandemic and subsequent shutdown along with the legalization of marijuana in January. There is certainly is a possibility of narcotics arrests being seasonal. The seasonal component accounts for roughly 20% of the variation of the time series.
+
+#### SARIMA model analysis
 
 ![Narcotics Diagnostics](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/383bfc9e-7f75-4377-b8d6-aa68f8d6f345)
 
@@ -69,14 +77,21 @@ Correlogram: This plot shows autocorrelation at all lags.
 
 While the model has the general gist of the testing data it doesn't match up exactly. I'd say this should be expected considering there seems to be some reisduals are not entirely normally distributed. All in all a MAPE (mean average percent error) of 7.44% is very solid especially considering there is a clear next step. 
 
+#### Forecasting
+
 ![Narcotics Forecast](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/dacb4c94-0930-4868-8915-2a04a78a43a9)
 
 My SARIMA model is forecastign very little change in narcotics arrests in the first six month of 2023. Would be interesting to look back and compare the forecasted data to the recorded arrests.
 
+### Assault
+
+#### Determining the model
 
 ![Assault Seasonality](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/10f74635-5fcd-4235-8def-e5d7833938a2)
 
 Despite having fairly significant residuals the seasonal component acounts for roughly 25% of the variation in the time series. I will chose a seasonal model.
+
+#### Model Analysis
 
 ![Assault Diagnostics](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/2a296cfd-5663-4ad1-88e8-bd68f7561750)
 
@@ -91,6 +106,7 @@ Correlogram: This plot shows autocorrelation at all lags.
 ![Assault Train test](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/2fdbbe88-5384-4e2f-b435-0a360a07b930)
 
 
+#### Forecasting
 
 ![Assault Forecast](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/fbf08fab-400c-4797-8462-2f04e661db1a)
 
