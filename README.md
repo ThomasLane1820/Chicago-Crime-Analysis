@@ -120,9 +120,13 @@ Tableau Link:  https://public.tableau.com/views/Project3Dashboard_16995778005340
 
 ![image](https://github.com/ThomasLane1820/Project-3/assets/139289105/e060f80c-39f3-4188-a2ff-a555b2962d41)
 - 
+While the map looks bloated and messy as presented here, if you go to the Tableau Dashboard you'll be able to refine the metrics in multiple different ways allowing you to inspect specfic reported crimes, or specfici districts. You can also choose which year is being reflected giving more options.
+
 
 ![Tab Change in Crime](https://github.com/ThomasLane1820/Chicago-Crime-Analysis/assets/139289105/dff8437f-7bd1-43c9-a809-386b4bcf8c8b)
 
+This is a very clear and simple representation of not only the seasonal of crime as a whole, but the seasonality that reported crimes tends to have. 
+The peak months of 2015 - 2019 have far fewer reported crimes than the criminally slower months of 2001 - 2009. Signifying an incredible change occuring in Chicago.
 
 ## Points to mention
 - Offering an in-depth analysis of crime distribution and how certain crimes have changed over time []
